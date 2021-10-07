@@ -4,7 +4,7 @@
 	"description": "Made for a quick start in full stack projects using Spring and React",
 	"main": "index.js",
 	"scripts": {
-		"dev": "concurrently \"cd backend && mvn run:spring-boot  \" \"cd frontend && npm start\" ",
+		"dev": "concurrently \"cd backend && mvn spring-boot:run  \" \"cd frontend && npm start\" ",
 		"install": "concurrently \"cd backend && mvn clean install \" \"cd frontend && npm install\" "
 	},
 	"repository": {
